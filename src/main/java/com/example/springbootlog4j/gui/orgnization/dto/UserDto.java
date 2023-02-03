@@ -1,14 +1,14 @@
-package com.example.springbootlog4j.gui.orgnization.entity;
+package com.example.springbootlog4j.gui.orgnization.dto;
 
-import lombok.Getter;
-import lombok.Setter;
+import java.sql.Date;
 
-import java.util.Date;
-
-@Setter
-@Getter
-public class User {
-
+/**
+ * @ClassName UserDto
+ * @Description TODO
+ * @Author gql
+ * @Date 2023/2/3 20:01
+ **/
+public class UserDto {
     private String id;
 
     private String username;
@@ -29,4 +29,3 @@ public class User {
 
     private String updater;
 }
-

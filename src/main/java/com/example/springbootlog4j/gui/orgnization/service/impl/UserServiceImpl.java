@@ -26,4 +26,9 @@ public class UserServiceImpl implements UserService {
     public List<User> getAllUsers() {
         return userMapper.getAllUser();
     }
+
+    @Override
+    public void batchUser(List<User> batchUserList) {
+        userMapper.batchUser(batchUserList);
+    }
 }
